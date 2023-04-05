@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Google Sans", sans-serif;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.links, .images{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.links{
+  margin-right: 30px;
+}
+
+.header a{
+  text-decoration: none;
+  color: rgb(44, 44, 44);
+  font-size: 13px;
+}
+
+.goog-image{
+  display: block;
+  margin: auto;
+  
+}
+
+.profile-image{
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.search-area{
+  display: flex;
+  align-items: center;
+  width: 92%;
+  border-radius: 50px;
+  border: 1px solid rgb(218, 215, 215);
+  margin: 30px auto;
+  padding: 10px 12px;
+}
+
+.search-icon{
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+.search {
+  width: 90%;
+  margin-left: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.search-icons {
+  width: 80px;
+  display: flex;
+}
+
+.search-icons img{
+  width: 32px;
+padding-right: 10px;
+margin: 0 3px;
+}
+
+.butns{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.butn{
+  padding: 10px;
+  border: none;
+  font-size: 14px;
+  background-color: rgb(245, 244, 244);
+  border-radius: 5px;
+}
+
+.footer{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin: 30px;
+}
+.footer p{
+  font-size: 13px;
+}
+.footer a{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(5, 5, 168);
+}
+
+.footer a:hover{
+  text-decoration: underline;
+}
+
